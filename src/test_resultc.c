@@ -7,17 +7,18 @@
 
 // test string results based on char pointer result/expected value
 void test_resultc(int condition, const char* message, const char* result, const char* expected) {
+
     if (condition) {
         if (result != NULL) {
-            printf(GREEN "[+] " RESET "%s: %d (Expected: %s)\n", message, *result, expected);
+            printf(GREEN "[+] " RESET "%s : " GREEN "%s" RESET " (Expected: " GREEN "%s" RESET ")\n", message, result, expected);
         } else {
-            printf(GREEN "[+] " RESET "%s: NULL (Expected: %s)\n", message, expected);
+            printf(GREEN "[+] " RESET "%s : " GREEN "NULL" RESET " (Expected: " GREEN "%s" RESET ")\n", message, expected);
         }
 	} else {
 	    if (result != NULL) {
-			printf(RED "[-] " RESET "%s: %d (Expected: %s)\n", message, *result, expected);
+			printf(RED "[-] " RESET "%s : " RED "%s" RESET " (Expected: " RED "%s" RESET ")\n", message, result, expected);
         } else {
-            printf(RED "[-] " RESET "%s: NULL (Expected: %s)\n", message, expected);
+            printf(RED "[-] " RESET "%s : " RED "NULL" RESET " (Expected: " RED "%s" RESET ")\n", message, expected);
         }
 	}   
 }

@@ -7,9 +7,10 @@
 
 // test string results based on int result/expected value
 void test_result(int condition, const char* message, int result, int expected) {
+
     if (condition) {
-        printf(GREEN "[+] " RESET "%s: %d (Expected: %d)\n", message, result, expected);
+        printf(GREEN "[+] " RESET "%s : " GREEN "%d" RESET " (Expected: " GREEN "%d" RESET ")\n", message, result, expected);
     } else {
-        printf(RED "[-] " RESET "%s: %d (Expected: %d)\n", message, result, expected);
+        printf(RED "[-] " RESET "%s : " RED "%d" RESET " (Expected: " RED "%d" RESET ")\n", message, result, expected);
     }
 }
