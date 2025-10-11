@@ -11,8 +11,8 @@ Libraries will be done following this sequence as much as possible (where applic
 | ✅ |[ft_isprint](../src/ft_isprint.c) | checks if character is printable|
 | ✅ |[ft_toupper](../src/ft_toupper.c) | converts to uppercase|
 | ✅ |[ft_tolower](../src/ft_tolower.c) | converts to lowercase|
-| ✅ |[ft_strlen](../src/ft_strlen.c) | string length|
-| ✅ |[ft_strchr](../src/ft_strchr.c) | finds first occurrence of character in string|
+| ✅ |[ft_strlen](../src/ft_strlen.c)   | string length|
+| ✅ |[ft_strchr](../src/ft_strchr.c)   | finds first occurrence of character in string|
 | ✅ |[ft_strrchr](../src/ft_strrchr.c) | finds last occurrence of character in string|
 | ✅ |[ft_strncmp](../src/ft_strncmp.c) | compares strings up to n bytes|
 | ✅ |[ft_strnstr](../src/ft_strnstr.c) | finds substring in string|
@@ -21,12 +21,12 @@ Libraries will be done following this sequence as much as possible (where applic
 
 |     |Memory Functions | Description |
 |-----|---------------|---------------|
-| ❌ |ft_memset | fills memory with a byte
-| ❌ |ft_bzero | fills memory with zero
-| ❌ |ft_memcpy | copies memory
-| ❌ |ft_memmove | copies memory with overlap handling
-| ❌ |ft_memchr | searches for byte in memory
-| ❌ |ft_memcmp | compares memory blocks
+| ✅ |[ft_memset](../src/ft_memset.c) | fills memory with a byte
+| ✅ |[ft_bzero](../src/ft_bzero.c) | fills memory with zero
+| ✅ |[ft_memcpy](../src/ft_memcpy.c) | copies memory
+| ✅ |[ft_memmove](../src/ft_memmove.c) | copies memory with overlap handling
+| ✅ |[ft_memchr](../src/ft_memchr.c) | searches for byte in memory
+| ✅ |[ft_memcmp](../src/ft_memcmp.c) | compares memory blocks
 
 | |Memory Allocation | Description |
 |-----|--------------|-------------|
