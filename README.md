@@ -48,5 +48,12 @@ This project is a personal learning exercise. At the end, I'll try to comment th
 
 Contributions are not accepted, but feel free to advise me on how to improve it and correct any mistakes I might have made! 🐸
 
+<div align="center">
+
+![Cognitive complexity image](./assets/cognitive_complexity.png)
+<sub>/test/tests.c</sub>
+
+</div>
+
 
 
