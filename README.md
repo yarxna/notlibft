@@ -51,7 +51,7 @@ Contributions are not accepted, but feel free to advise me on how to improve it 
 <div align="center">
 
 ![Cognitive complexity image](./assets/cognitive_complexity.png)
-<sub>/test/tests.c</sub>
+<br/><sub>/test/tests.c</sub>
 
 </div>
 
