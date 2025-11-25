@@ -24,7 +24,7 @@ I'm not an École 42 cadet, but I decided to write my own libft.
 To run the tests, clone the repository and run `make`: 
 
 ```bash
-git clone https://github.com/yaxra/notlibft
+git clone https://github.com/yarxna/notlibft
 cd notlibft
 make
 ```
