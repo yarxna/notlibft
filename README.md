@@ -38,10 +38,9 @@ To run the tests, execute the `notlibft` binary in the `build` directory:
 
 <div align="center">
 
-![](./assets/example.png)
+  ![](./assets/example.png)
 
 </div>
-***
 
 ## About
 This project is a personal learning exercise. At the end, I'll try to comment the code as much as possible. 
@@ -50,8 +49,8 @@ Contributions are not accepted, but feel free to advise me on how to improve it 
 
 <div align="center">
 
-![Cognitive complexity image](./assets/cognitive_complexity.png)
-<br/><sub>/test/tests.c</sub>
+  ![Cognitive complexity image](https://raw.githubusercontent.com/yarxna/notlibft/refs/heads/main/assets/cognitive_complexity.png)
+  <br/><sub>/test/tests.c</sub>
 
 </div>
 
